@@ -9,6 +9,7 @@ activate :i18n
 
 activate :relative_assets
 activate :asset_hash
+activate :directory_indexes
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
