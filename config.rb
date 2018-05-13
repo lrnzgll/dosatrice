@@ -5,6 +5,11 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+activate :i18n
+
+activate :relative_assets
+activate :asset_hash
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
